@@ -1,6 +1,6 @@
 # TGI HTML Page Cache
 
-A WordPress plugin to cache specific pages as HTML files for faster loading.
+A WordPress plugin to cache specific pages as HTML files for faster loading. Visit [tabsgi.com](https://tabsgi.com) for more information.
 
 ## Description
 
@@ -14,9 +14,9 @@ The TGI HTML Page Cache plugin allows you to cache specific pages of your WordPr
 
 ## Installation
 
-To install the TGI HTML Page Cache plugin, follow these steps:
+### From the WordPress Admin Dashboard
 
-1. **Download the Plugin**: Download the latest version of the plugin from the [releases page](https://github.com/yourusername/tgi-html-page-cache/releases).
+1. **Download the Plugin**: Download the latest version of the plugin from the [releases page](https://github.com/ziishanahmad/tgi-html-page-cache/releases).
 
 2. **Upload the Plugin**:
    - Go to your WordPress admin dashboard.
@@ -27,6 +27,32 @@ To install the TGI HTML Page Cache plugin, follow these steps:
 
 3. **Activate the Plugin**:
    - After the plugin is installed, click `Activate Plugin`.
+
+### Using FTP
+
+1. **Download the Plugin**: Download the latest version of the plugin from the [releases page](https://github.com/ziishanahmad/tgi-html-page-cache/releases).
+
+2. **Extract the Plugin**:
+   - Extract the `tgi-html-page-cache.zip` file to your local machine.
+
+3. **Upload via FTP**:
+   - Connect to your WordPress site's server using an FTP client.
+   - Navigate to the `wp-content/plugins/` directory.
+   - Upload the extracted `tgi-html-page-cache` folder to the `plugins` directory.
+
+4. **Activate the Plugin**:
+   - Go to your WordPress admin dashboard.
+   - Navigate to `Plugins`.
+   - Locate `TGI HTML Page Cache` and click `Activate`.
+
+### Using WP-CLI
+
+1. **Download and Install via WP-CLI**:
+   - Open your terminal and navigate to your WordPress installation directory.
+   - Run the following command to download and install the plugin:
+     ```sh
+     wp plugin install https://github.com/ziishanahmad/tgi-html-page-cache/archive/refs/heads/main.zip --activate
+     ```
 
 ## Usage
 
@@ -49,3 +75,9 @@ private function is_cachable() {
     // Add logic to determine if the page should be cached
     return is_page();
 }
+
+##Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+##license
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/ziishanahmad/tgi-html-page-cache/LICENSE). file for details.
