@@ -75,6 +75,7 @@ private function is_cachable() {
     // Add logic to determine if the page should be cached
     return is_page();
 }
+php```
 
 ###Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
