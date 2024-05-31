@@ -80,5 +80,5 @@ private function is_cachable() {
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-## license
+## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/ziishanahmad/tgi-html-page-cache/blob/main/LICENSE) file for details.
