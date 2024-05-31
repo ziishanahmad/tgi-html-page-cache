@@ -1,9 +1,10 @@
 <?php
 /**
  * Plugin Name: TGI HTML Page Cache
- * Description: A plugin to cache specific pages as HTML files for faster loading.
+ * Description: A plugin to cache specific pages as HTML files for faster loading. Visit https://tabsgi.com for more information.
  * Version: 1.0
- * Author: Syed
+ * Author: Zeeshan Ahmad
+ * Author URI: https://tabsgi.com
  */
 
 // Exit if accessed directly
